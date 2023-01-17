@@ -1,0 +1,10 @@
+[0.020s] Invoking command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/example_pkg_c -- -j4 -l4
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_example.dir/src/example.cpp.o[0m
+[1.705s] [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/example.cpp:[m[K In constructor ‘[01m[KHelloPublisher::HelloPublisher()[m[K’:
+[1.706s] [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/example.cpp:14:46:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[1.706s]    14 |             timer_ = this->create_wall_timer([01;31m[K500ms[m[K, std::bind(&HelloPublisher::timer_callback, this));
+[1.706s]       |                                              [01;31m[K^~~~~[m[K
+[2.584s] make[2]: *** [CMakeFiles/ros2_example.dir/build.make:76: CMakeFiles/ros2_example.dir/src/example.cpp.o] Error 1
+[2.584s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_example.dir/all] Error 2
+[2.585s] make: *** [Makefile:146: all] Error 2
+[2.587s] Invoked command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/example_pkg_c -- -j4 -l4

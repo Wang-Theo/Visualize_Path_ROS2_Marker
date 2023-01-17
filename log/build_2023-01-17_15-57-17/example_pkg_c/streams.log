@@ -1,0 +1,29 @@
+[0.023s] Invoking command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/example_pkg_c -- -j4 -l4
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_example.dir/src/marker.cpp.o[0m
+[1.719s] [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/marker.cpp:17:5:[m[K [01;35m[Kwarning: [m[Ksecond argument of ‘[01m[Kint main(int, char*)[m[K’ should be ‘[01m[Kchar **[m[K’ [[01;35m[K-Wmain[m[K]
+[1.719s]    17 | int [01;35m[Kmain[m[K(int argc, char* argv){
+[1.719s]       |     [01;35m[K^~~~[m[K
+[1.719s] [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/marker.cpp:[m[K In function ‘[01m[Kint main(int, char*)[m[K’:
+[1.719s] [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/marker.cpp:18:24:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kchar*[m[K’ to ‘[01m[Kconst char* const*[m[K’
+[1.719s]    18 |     rclcpp::init(argc, [01;31m[Kargv[m[K);
+[1.719s]       |                        [01;31m[K^~~~[m[K
+[1.719s]       |                        [01;31m[K|[m[K
+[1.719s]       |                        [01;31m[Kchar*[m[K
+[1.720s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:36[m[K,
+[1.720s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[1.720s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[1.720s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[1.720s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.720s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[1.720s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[1.720s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.720s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[1.720s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.720s]                  from [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/marker.cpp:5[m[K:
+[1.720s] [01m[K/opt/ros/galactic/include/rclcpp/utilities.hpp:56:35:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid rclcpp::init(int, const char* const*, const rclcpp::InitOptions&)[m[K’
+[1.720s]    56 | init(int argc, [01;36m[Kchar const * const argv[][m[K, const InitOptions & init_options = InitOptions());
+[1.720s]       |                [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.619s] make[2]: *** [CMakeFiles/ros2_example.dir/build.make:76: CMakeFiles/ros2_example.dir/src/marker.cpp.o] Error 1
+[2.619s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_example.dir/all] Error 2
+[2.620s] make: *** [Makefile:146: all] Error 2
+[2.621s] Invoked command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/example_pkg_c -- -j4 -l4

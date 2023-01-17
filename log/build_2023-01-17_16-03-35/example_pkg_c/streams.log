@@ -1,0 +1,10 @@
+[0.022s] Invoking command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/example_pkg_c -- -j4 -l4
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_example.dir/src/marker.cpp.o[0m
+[0.118s] [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/marker.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kunistd.hpp: No such file or directory
+[0.118s]     4 | #include [01;31m[K<unistd.hpp>[m[K
+[0.118s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.118s] compilation terminated.
+[0.120s] make[2]: *** [CMakeFiles/ros2_example.dir/build.make:76: CMakeFiles/ros2_example.dir/src/marker.cpp.o] Error 1
+[0.120s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_example.dir/all] Error 2
+[0.120s] make: *** [Makefile:146: all] Error 2
+[0.122s] Invoked command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/example_pkg_c -- -j4 -l4

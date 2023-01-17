@@ -1,0 +1,11 @@
+[0.020s] Invoking command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/example_pkg_c -- -j4 -l4
+[0.065s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_example.dir/src/marker.cpp.o[0m
+[1.731s] [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/marker.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.731s] [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/marker.cpp:31:101:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Krclcpp::Time rclcpp::Node::now() const[m[K’ without object
+[1.732s]    31 | p.header.stamp = line_list.header.stamp = rclcpp::Node::now( [01;31m[K)[m[K;
+[1.732s]       |                                                              [01;31m[K^[m[K
+[1.732s] 
+[2.626s] make[2]: *** [CMakeFiles/ros2_example.dir/build.make:76: CMakeFiles/ros2_example.dir/src/marker.cpp.o] Error 1
+[2.626s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_example.dir/all] Error 2
+[2.626s] make: *** [Makefile:146: all] Error 2
+[2.628s] Invoked command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/example_pkg_c -- -j4 -l4

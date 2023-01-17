@@ -1,0 +1,16 @@
+/home/wrdev/workspace/ros2_ws/install/example_pkg_c/lib/example_pkg_c/ros2_example
+/home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/ament_index/resource_index/package_run_dependencies/example_pkg_c
+/home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/ament_index/resource_index/parent_prefix_path/example_pkg_c
+/home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/ament_prefix_path.sh
+/home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/ament_prefix_path.dsv
+/home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/path.sh
+/home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/path.dsv
+/home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/local_setup.bash
+/home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/local_setup.sh
+/home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/local_setup.zsh
+/home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/local_setup.dsv
+/home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/package.dsv
+/home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/ament_index/resource_index/packages/example_pkg_c
+/home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/example_pkg_cConfig.cmake
+/home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/example_pkg_cConfig-version.cmake
+/home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/package.xml

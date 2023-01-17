@@ -1,0 +1,21 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wrdev/workspace/ros2_ws/build/example_pkg_c
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_example.dir/src/example.cpp.o[0m
+[01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/example.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kvisualization_msgs/msg/Marker.hpp: No such file or directory
+    6 | #include [01;31m[K<visualization_msgs/msg/Marker.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/ros2_example.dir/build.make:76: CMakeFiles/ros2_example.dir/src/example.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_example.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

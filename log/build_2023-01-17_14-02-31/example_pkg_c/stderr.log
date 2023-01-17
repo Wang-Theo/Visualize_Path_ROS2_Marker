@@ -1,0 +1,7 @@
+[01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/example.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kvisualization_msgs/Marker.h: No such file or directory
+    6 | #include [01;31m[K<visualization_msgs/Marker.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/ros2_example.dir/build.make:76: CMakeFiles/ros2_example.dir/src/example.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_example.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

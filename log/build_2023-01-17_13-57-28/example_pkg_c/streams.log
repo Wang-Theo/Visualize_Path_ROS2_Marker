@@ -1,0 +1,31 @@
+[0.019s] Invoking command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/example_pkg_c -- -j4 -l4
+[0.036s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.058s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.121s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.188s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.283s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.318s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.403s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.470s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.474s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.494s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.494s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.559s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.559s] -- Looking for pthread_create in pthreads
+[0.607s] -- Looking for pthread_create in pthreads - not found
+[0.607s] -- Looking for pthread_create in pthread
+[0.668s] -- Looking for pthread_create in pthread - found
+[0.669s] -- Found Threads: TRUE  
+[0.868s] -- Configuring done
+[0.877s] -- Generating done
+[0.878s] -- Build files have been written to: /home/wrdev/workspace/ros2_ws/build/example_pkg_c
+[0.898s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_example.dir/src/example.cpp.o[0m
+[1.028s] [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/example.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kvisualization_msgs/Marker.h: No such file or directory
+[1.028s]     6 | #include [01;31m[K<visualization_msgs/Marker.h>[m[K
+[1.028s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.028s] compilation terminated.
+[1.032s] make[2]: *** [CMakeFiles/ros2_example.dir/build.make:76: CMakeFiles/ros2_example.dir/src/example.cpp.o] Error 1
+[1.033s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_example.dir/all] Error 2
+[1.033s] make: *** [Makefile:146: all] Error 2
+[1.035s] Invoked command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/example_pkg_c -- -j4 -l4

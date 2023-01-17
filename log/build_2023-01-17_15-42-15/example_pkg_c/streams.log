@@ -1,0 +1,15 @@
+[0.023s] Invoking command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/example_pkg_c -- -j4 -l4
+[0.064s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_example.dir/src/marker.cpp.o[0m
+[1.757s] [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/marker.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.757s] [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/marker.cpp:32:94:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+[1.757s]    32 | ne_strip.header.stamp = line_list.header.stamp = rclcpp::Time[01;31m[K([m[Kconst rclcpp::Node::now());
+[1.757s]       |                                                              [01;31m[K^[m[K
+[1.757s] 
+[1.757s] [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/marker.cpp:32:95:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[1.757s]    32 | e_strip.header.stamp = line_list.header.stamp = rclcpp::Time([01;31m[Kconst[m[K rclcpp::Node::now());
+[1.757s]       |                                                              [01;31m[K^~~~~[m[K
+[1.757s] 
+[2.644s] make[2]: *** [CMakeFiles/ros2_example.dir/build.make:76: CMakeFiles/ros2_example.dir/src/marker.cpp.o] Error 1
+[2.645s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_example.dir/all] Error 2
+[2.645s] make: *** [Makefile:146: all] Error 2
+[2.647s] Invoked command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/example_pkg_c -- -j4 -l4
