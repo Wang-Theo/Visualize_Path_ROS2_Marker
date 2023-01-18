@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ros2_example.dir/src/marker.cpp.o"
-  "CMakeFiles/ros2_example.dir/src/marker.cpp.o.d"
+  "CMakeFiles/ros2_example.dir/src/rrt_marker.cpp.o"
+  "CMakeFiles/ros2_example.dir/src/rrt_marker.cpp.o.d"
   "ros2_example"
   "ros2_example.pdb"
 )
