@@ -1,8 +1,0 @@
-[01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/marker.cpp:[m[K In member function ‘[01m[Kvoid MarkerPublisher::marker_test_callback()[m[K’:
-[01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/marker.cpp:21:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
-   21 | er.stamp = line_strip.header.stamp = line_list.header.stamp = [01;31m[Kros[m[K::Time::now();
-      |                                                               [01;31m[K^~~[m[K
-
-make[2]: *** [CMakeFiles/ros2_example.dir/build.make:76: CMakeFiles/ros2_example.dir/src/marker.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_example.dir/all] Error 2
-make: *** [Makefile:146: all] Error 2

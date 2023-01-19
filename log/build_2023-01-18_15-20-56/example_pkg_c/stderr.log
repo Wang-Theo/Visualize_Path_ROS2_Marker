@@ -1,0 +1,26 @@
+[01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_marker.cpp:[m[K In member function ‘[01m[Knode* RRT::getNearestNode(const std::vector<float>&)[m[K’:
+[01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_marker.cpp:24:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<node*>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   24 |     for (int i = 0; [01;35m[Ki < nodeList.size()[m[K; i++) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_display.cpp:[m[K In member function ‘[01m[Kvoid DisplayRRT::timer_callback()[m[K’:
+[01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_display.cpp:98:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount_[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   98 |         size_t [01;35m[Kcount_[m[K;
+      |                [01;35m[K^~~~~~[m[K
+[01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_display.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_display.cpp:113:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  113 | int main([01;35m[Kint argc[m[K, char* argv[]) {
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_display.cpp:113:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  113 | int main(int argc, [01;35m[Kchar* argv[][m[K) {
+      |                    [01;35m[K~~~~~~^~~~~~[m[K
+[01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_display.cpp:[m[K In member function ‘[01m[Kvoid DisplayRRT::timer_callback()[m[K’:
+[01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_display.cpp:98:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount_[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   98 |         size_t [01;35m[Kcount_[m[K;
+      |                [01;35m[K^~~~~~[m[K
+[01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_display.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_display.cpp:113:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  113 | int main([01;35m[Kint argc[m[K, char* argv[]) {
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_display.cpp:113:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  113 | int main(int argc, [01;35m[Kchar* argv[][m[K) {
+      |                    [01;35m[K~~~~~~^~~~~~[m[K

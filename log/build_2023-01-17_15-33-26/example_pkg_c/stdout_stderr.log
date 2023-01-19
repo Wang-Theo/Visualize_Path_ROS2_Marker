@@ -1,9 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/ros2_example.dir/src/marker.cpp.o[0m
-[01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/marker.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/marker.cpp:31:101:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Krclcpp::Time rclcpp::Node::now() const[m[K’ without object
-   31 | p.header.stamp = line_list.header.stamp = rclcpp::Node::now( [01;31m[K)[m[K;
-      |                                                              [01;31m[K^[m[K
-
-make[2]: *** [CMakeFiles/ros2_example.dir/build.make:76: CMakeFiles/ros2_example.dir/src/marker.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_example.dir/all] Error 2
-make: *** [Makefile:146: all] Error 2

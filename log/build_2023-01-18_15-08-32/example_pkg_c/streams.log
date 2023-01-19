@@ -1,0 +1,27 @@
+[0.025s] Invoking command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/example_pkg_c -- -j4 -l4
+[0.042s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.066s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.129s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.164s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.167s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.293s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.338s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.340s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.357s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.479s] -- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+[0.586s] [31mCMake Error at CMakeLists.txt:21 (add_executable):
+[0.586s]   The target name "test/rrt_display" is reserved or not valid for certain
+[0.586s]   CMake features, such as generator expressions, and may result in undefined
+[0.586s]   behavior.
+[0.586s] 
+[0.586s] [0m
+[0.586s] [31mCMake Error at CMakeLists.txt:22 (target_link_libraries):
+[0.587s]   Cannot specify link libraries for target "rrt_display" which is not built
+[0.587s]   by this project.
+[0.587s] 
+[0.587s] [0m
+[0.587s] -- Configuring incomplete, errors occurred!
+[0.587s] See also "/home/wrdev/workspace/ros2_ws/build/example_pkg_c/CMakeFiles/CMakeOutput.log".
+[0.587s] See also "/home/wrdev/workspace/ros2_ws/build/example_pkg_c/CMakeFiles/CMakeError.log".
+[0.592s] make: *** [Makefile:294: cmake_check_build_system] Error 1
+[0.594s] Invoked command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/example_pkg_c -- -j4 -l4

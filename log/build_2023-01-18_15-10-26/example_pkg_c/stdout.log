@@ -1,0 +1,46 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wrdev/workspace/ros2_ws/build/example_pkg_c
+[ 20%] [32mBuilding CXX object CMakeFiles/example_pkg_c.dir/src/rrt_display.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library libexample_pkg_c.so[0m
+[ 60%] Built target example_pkg_c
+[ 80%] [32mBuilding CXX object CMakeFiles/rrt_display.dir/src/rrt_display.cpp.o[0m
+[100%] [32m[1mLinking CXX executable rrt_display[0m
+[100%] Built target rrt_display
+-- Install configuration: ""
+-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/library_path.sh
+-- Installing: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/library_path.dsv
+-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/include
+-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/include/example_pkg_c
+-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/include/example_pkg_c/rrt_marker.hpp
+-- Installing: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/lib/example_pkg_c/libexample_pkg_c.so
+-- Set runtime path of "/home/wrdev/workspace/ros2_ws/install/example_pkg_c/lib/example_pkg_c/libexample_pkg_c.so" to ""
+-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/ament_index/resource_index/package_run_dependencies/example_pkg_c
+-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/ament_index/resource_index/parent_prefix_path/example_pkg_c
+-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/ament_prefix_path.sh
+-- Installing: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/path.sh
+-- Installing: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/path.dsv
+-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/local_setup.bash
+-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/local_setup.sh
+-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/local_setup.zsh
+-- Installing: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/local_setup.dsv
+-- Installing: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/package.dsv
+-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/ament_index/resource_index/packages/example_pkg_c
+-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/example_pkg_cExport.cmake
+-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/example_pkg_cExport-noconfig.cmake
+-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/example_pkg_cConfig.cmake
+-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/example_pkg_cConfig-version.cmake
+-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/package.xml

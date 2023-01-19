@@ -1,0 +1,12 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/example_pkg_c.dir/src/rrt_marker.cpp.o[0m
+[01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_marker.cpp:[m[K In member function ‘[01m[Kvoid DisplayRRT::timer_callback()[m[K’:
+[01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_marker.cpp:22:40:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KEdge::edge[m[K’
+   22 |         for (uint32_t i = 0; i < Edge::[01;31m[Kedge[m[K.size(); ++i){
+      |                                        [01;31m[K^~~~[m[K
+In file included from [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_marker.cpp:1[m[K:
+[01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/include/example_pkg_c/rrt_marker.hpp:29:41:[m[K [01;36m[Knote: [m[Kdeclared here
+   29 |         std::vector<std::vector<Point>> [01;36m[Kedge[m[K;
+      |                                         [01;36m[K^~~~[m[K
+make[2]: *** [CMakeFiles/example_pkg_c.dir/build.make:76: CMakeFiles/example_pkg_c.dir/src/rrt_marker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/example_pkg_c.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

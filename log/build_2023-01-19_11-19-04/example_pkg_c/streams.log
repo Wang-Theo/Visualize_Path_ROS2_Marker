@@ -1,0 +1,14 @@
+[0.020s] Invoking command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/example_pkg_c -- -j4 -l4
+[0.064s] [ 20%] [32mBuilding CXX object CMakeFiles/example_pkg_c.dir/src/rrt_marker.cpp.o[0m
+[1.990s] [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_marker.cpp:[m[K In member function ‘[01m[Kvoid DisplayRRT::timer_callback()[m[K’:
+[1.991s] [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_marker.cpp:22:40:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KEdge::edge[m[K’
+[1.991s]    22 |         for (uint32_t i = 0; i < Edge::[01;31m[Kedge[m[K.size(); ++i){
+[1.991s]       |                                        [01;31m[K^~~~[m[K
+[1.991s] In file included from [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_marker.cpp:1[m[K:
+[1.991s] [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/include/example_pkg_c/rrt_marker.hpp:29:41:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.991s]    29 |         std::vector<std::vector<Point>> [01;36m[Kedge[m[K;
+[1.991s]       |                                         [01;36m[K^~~~[m[K
+[2.730s] make[2]: *** [CMakeFiles/example_pkg_c.dir/build.make:76: CMakeFiles/example_pkg_c.dir/src/rrt_marker.cpp.o] Error 1
+[2.730s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/example_pkg_c.dir/all] Error 2
+[2.730s] make: *** [Makefile:146: all] Error 2
+[2.733s] Invoked command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/example_pkg_c -- -j4 -l4

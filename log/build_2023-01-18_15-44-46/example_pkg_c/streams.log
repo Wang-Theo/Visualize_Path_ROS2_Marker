@@ -1,0 +1,50 @@
+[0.021s] Invoking command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/example_pkg_c -- -j4 -l4
+[0.067s] [ 20%] [32mBuilding CXX object CMakeFiles/example_pkg_c.dir/src/rrt_marker.cpp.o[0m
+[0.067s] [ 40%] [32mBuilding CXX object CMakeFiles/example_pkg_c.dir/src/rrt_display.cpp.o[0m
+[2.921s] [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_marker.cpp:[m[K In member function ‘[01m[Knode* RRT::getNearestNode(const std::vector<float>&)[m[K’:
+[2.921s] [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_marker.cpp:24:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<node*>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[2.921s]    24 |     for (int i = 0; [01;35m[Ki < nodeList.size()[m[K; i++) {
+[2.922s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[2.978s] [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_display.cpp:[m[K In member function ‘[01m[Kvoid DisplayRRT::timer_callback()[m[K’:
+[2.978s] [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_display.cpp:98:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount_[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.978s]    98 |         size_t [01;35m[Kcount_[m[K;
+[2.978s]       |                [01;35m[K^~~~~~[m[K
+[5.630s] [ 60%] [32m[1mLinking CXX shared library libexample_pkg_c.so[0m
+[5.905s] [ 60%] Built target example_pkg_c
+[5.931s] [ 80%] [32mBuilding CXX object CMakeFiles/rrt_display.dir/src/rrt_display.cpp.o[0m
+[8.668s] [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_display.cpp:[m[K In member function ‘[01m[Kvoid DisplayRRT::timer_callback()[m[K’:
+[8.668s] [01m[K/home/wrdev/workspace/ros2_ws/src/example_pkg_c/src/rrt_display.cpp:98:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount_[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[8.668s]    98 |         size_t [01;35m[Kcount_[m[K;
+[8.669s]       |                [01;35m[K^~~~~~[m[K
+[11.267s] [100%] [32m[1mLinking CXX executable rrt_display[0m
+[11.523s] [100%] Built target rrt_display
+[11.528s] Invoked command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/example_pkg_c -- -j4 -l4
+[11.560s] Invoking command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/wrdev/workspace/ros2_ws/build/example_pkg_c
+[11.564s] -- Install configuration: ""
+[11.564s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/library_path.sh
+[11.564s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/library_path.dsv
+[11.564s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/include
+[11.564s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/include/example_pkg_c
+[11.564s] -- Installing: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/include/example_pkg_c/rrt_marker.hpp
+[11.564s] -- Installing: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/lib/example_pkg_c/libexample_pkg_c.so
+[11.567s] -- Set runtime path of "/home/wrdev/workspace/ros2_ws/install/example_pkg_c/lib/example_pkg_c/libexample_pkg_c.so" to ""
+[11.567s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/ament_index/resource_index/package_run_dependencies/example_pkg_c
+[11.567s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/ament_index/resource_index/parent_prefix_path/example_pkg_c
+[11.567s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/ament_prefix_path.sh
+[11.568s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/ament_prefix_path.dsv
+[11.568s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/path.sh
+[11.568s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/path.dsv
+[11.568s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/local_setup.bash
+[11.568s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/local_setup.sh
+[11.568s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/local_setup.zsh
+[11.568s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/local_setup.dsv
+[11.568s] -- Installing: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/package.dsv
+[11.568s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/ament_index/resource_index/packages/example_pkg_c
+[11.568s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/example_pkg_cExport.cmake
+[11.568s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/example_pkg_cExport-noconfig.cmake
+[11.569s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/ament_cmake_export_targets-extras.cmake
+[11.569s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.569s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/example_pkg_cConfig.cmake
+[11.569s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/example_pkg_cConfig-version.cmake
+[11.569s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/package.xml
+[11.572s] Invoked command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/wrdev/workspace/ros2_ws/build/example_pkg_c

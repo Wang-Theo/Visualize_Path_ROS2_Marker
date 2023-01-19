@@ -43,23 +43,38 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_pkg_c/ros2_example" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_pkg_c/ros2_example")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_pkg_c/environment" TYPE FILE FILES "/opt/ros/galactic/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_pkg_c/environment" TYPE FILE FILES "/home/wrdev/workspace/ros2_ws/build/example_pkg_c/ament_cmake_environment_hooks/library_path.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/wrdev/workspace/ros2_ws/src/example_pkg_c/include/")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_pkg_c/libexample_pkg_c.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_pkg_c/libexample_pkg_c.so")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_pkg_c/ros2_example"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_pkg_c/libexample_pkg_c.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/example_pkg_c" TYPE EXECUTABLE FILES "/home/wrdev/workspace/ros2_ws/build/example_pkg_c/ros2_example")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_pkg_c/ros2_example" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_pkg_c/ros2_example")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/example_pkg_c" TYPE SHARED_LIBRARY FILES "/home/wrdev/workspace/ros2_ws/build/example_pkg_c/libexample_pkg_c.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_pkg_c/libexample_pkg_c.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_pkg_c/libexample_pkg_c.so")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_pkg_c/ros2_example"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_pkg_c/libexample_pkg_c.so"
          OLD_RPATH "/opt/ros/galactic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_pkg_c/ros2_example")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_pkg_c/libexample_pkg_c.so")
     endif()
   endif()
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -108,6 +123,37 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/wrdev/workspace/ros2_ws/build/example_pkg_c/ament_cmake_index/share/ament_index/resource_index/packages/example_pkg_c")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/example_pkg_c/cmake/example_pkg_cExport.cmake")
+    file(DIFFERENT _cmake_export_file_changed FILES
+         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/example_pkg_c/cmake/example_pkg_cExport.cmake"
+         "/home/wrdev/workspace/ros2_ws/build/example_pkg_c/CMakeFiles/Export/52e825b5c454f9344866928b34395b62/example_pkg_cExport.cmake")
+    if(_cmake_export_file_changed)
+      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/example_pkg_c/cmake/example_pkg_cExport-*.cmake")
+      if(_cmake_old_config_files)
+        string(REPLACE ";" ", " _cmake_old_config_files_text "${_cmake_old_config_files}")
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/example_pkg_c/cmake/example_pkg_cExport.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
+        unset(_cmake_old_config_files_text)
+        file(REMOVE ${_cmake_old_config_files})
+      endif()
+      unset(_cmake_old_config_files)
+    endif()
+    unset(_cmake_export_file_changed)
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_pkg_c/cmake" TYPE FILE FILES "/home/wrdev/workspace/ros2_ws/build/example_pkg_c/CMakeFiles/Export/52e825b5c454f9344866928b34395b62/example_pkg_cExport.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_pkg_c/cmake" TYPE FILE FILES "/home/wrdev/workspace/ros2_ws/build/example_pkg_c/CMakeFiles/Export/52e825b5c454f9344866928b34395b62/example_pkg_cExport-noconfig.cmake")
+  endif()
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_pkg_c/cmake" TYPE FILE FILES "/home/wrdev/workspace/ros2_ws/build/example_pkg_c/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_pkg_c/cmake" TYPE FILE FILES "/home/wrdev/workspace/ros2_ws/build/example_pkg_c/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
