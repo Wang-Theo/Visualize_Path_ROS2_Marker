@@ -1,0 +1,214 @@
+[0.000000] (-) TimerEvent: {}
+[0.001160] (example_pkg_c) JobQueued: {'identifier': 'example_pkg_c', 'dependencies': OrderedDict()}
+[0.002134] (rrt_marker_rviz) JobQueued: {'identifier': 'rrt_marker_rviz', 'dependencies': OrderedDict()}
+[0.002211] (example_pkg_c) JobStarted: {'identifier': 'example_pkg_c'}
+[0.014725] (rrt_marker_rviz) JobStarted: {'identifier': 'rrt_marker_rviz'}
+[0.029953] (example_pkg_c) JobProgress: {'identifier': 'example_pkg_c', 'progress': 'cmake'}
+[0.030820] (example_pkg_c) JobProgress: {'identifier': 'example_pkg_c', 'progress': 'build'}
+[0.031931] (example_pkg_c) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wrdev/workspace/ros2_ws/build/example_pkg_c', '--', '-j4', '-l4'], 'cwd': '/home/wrdev/workspace/ros2_ws/build/example_pkg_c', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wrdev'), ('LC_TIME', 'en_SG.UTF-8'), ('SSH_AGENT_PID', '1111'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/local/cuda/lib64'), ('HOME', '/home/wrdev'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_SG.UTF-8'), ('MANAGERPID', '877'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3d62068e1510f55e6f8eab1763e0517b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'wrdev'), ('JOURNAL_STREAM', '8:36655'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wrdev'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/opt/weston_robot/bin/:/home/wrdev/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/wrdev-B150:@/tmp/.ICE-unix/1149,unix/wrdev-B150:/tmp/.ICE-unix/1149'), ('INVOCATION_ID', 'db4f3e956dc343a388a277b60674e5b4'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_SG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2f074de0_ba6a_4654_823d_c6f535303f81'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_SG.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.294'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_SG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_SG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_SG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wrdev/workspace/ros2_ws/build/example_pkg_c'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3d62068e1510f55e6f8eab1763e0517b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_SG.UTF-8'), ('LC_PAPER', 'en_SG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.040006] (rrt_marker_rviz) JobProgress: {'identifier': 'rrt_marker_rviz', 'progress': 'cmake'}
+[0.040853] (rrt_marker_rviz) JobProgress: {'identifier': 'rrt_marker_rviz', 'progress': 'build'}
+[0.042857] (rrt_marker_rviz) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz', '--', '-j4', '-l4'], 'cwd': '/home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wrdev'), ('LC_TIME', 'en_SG.UTF-8'), ('SSH_AGENT_PID', '1111'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/local/cuda/lib64'), ('HOME', '/home/wrdev'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_SG.UTF-8'), ('MANAGERPID', '877'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3d62068e1510f55e6f8eab1763e0517b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'wrdev'), ('JOURNAL_STREAM', '8:36655'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wrdev'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/opt/weston_robot/bin/:/home/wrdev/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/wrdev-B150:@/tmp/.ICE-unix/1149,unix/wrdev-B150:/tmp/.ICE-unix/1149'), ('INVOCATION_ID', 'db4f3e956dc343a388a277b60674e5b4'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_SG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2f074de0_ba6a_4654_823d_c6f535303f81'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_SG.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.294'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_SG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_SG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_SG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3d62068e1510f55e6f8eab1763e0517b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_SG.UTF-8'), ('LC_PAPER', 'en_SG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.074329] (example_pkg_c) StdoutLine: {'line': b'[ 60%] Built target example_pkg_c\n'}
+[0.080506] (rrt_marker_rviz) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/rrt_marker_rviz.dir/src/rrt_marker.cpp.o\x1b[0m\n'}
+[0.099076] (-) TimerEvent: {}
+[0.099791] (example_pkg_c) StdoutLine: {'line': b'[100%] Built target rrt_display\n'}
+[0.109213] (example_pkg_c) CommandEnded: {'returncode': 0}
+[0.148490] (example_pkg_c) JobProgress: {'identifier': 'example_pkg_c', 'progress': 'install'}
+[0.154854] (example_pkg_c) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wrdev/workspace/ros2_ws/build/example_pkg_c'], 'cwd': '/home/wrdev/workspace/ros2_ws/build/example_pkg_c', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wrdev'), ('LC_TIME', 'en_SG.UTF-8'), ('SSH_AGENT_PID', '1111'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/local/cuda/lib64'), ('HOME', '/home/wrdev'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_SG.UTF-8'), ('MANAGERPID', '877'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3d62068e1510f55e6f8eab1763e0517b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'wrdev'), ('JOURNAL_STREAM', '8:36655'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wrdev'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/opt/weston_robot/bin/:/home/wrdev/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/wrdev-B150:@/tmp/.ICE-unix/1149,unix/wrdev-B150:/tmp/.ICE-unix/1149'), ('INVOCATION_ID', 'db4f3e956dc343a388a277b60674e5b4'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_SG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2f074de0_ba6a_4654_823d_c6f535303f81'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_SG.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.294'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_SG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_SG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_SG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wrdev/workspace/ros2_ws/build/example_pkg_c'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3d62068e1510f55e6f8eab1763e0517b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_SG.UTF-8'), ('LC_PAPER', 'en_SG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.162784] (example_pkg_c) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.163228] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/library_path.sh\n'}
+[0.163561] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/library_path.dsv\n'}
+[0.163728] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/include\n'}
+[0.163881] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/include/example_pkg_c\n'}
+[0.164141] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/include/example_pkg_c/rrt_marker.hpp\n'}
+[0.164786] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/lib/example_pkg_c/libexample_pkg_c.so\n'}
+[0.165336] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/ament_index/resource_index/package_run_dependencies/example_pkg_c\n'}
+[0.165604] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/ament_index/resource_index/parent_prefix_path/example_pkg_c\n'}
+[0.165940] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/ament_prefix_path.sh\n'}
+[0.166203] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/ament_prefix_path.dsv\n'}
+[0.166478] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/path.sh\n'}
+[0.166724] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/path.dsv\n'}
+[0.167001] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/local_setup.bash\n'}
+[0.167247] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/local_setup.sh\n'}
+[0.167494] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/local_setup.zsh\n'}
+[0.167739] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/local_setup.dsv\n'}
+[0.167997] (example_pkg_c) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/package.dsv\n'}
+[0.168563] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/ament_index/resource_index/packages/example_pkg_c\n'}
+[0.168920] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/example_pkg_cExport.cmake\n'}
+[0.169210] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/example_pkg_cExport-noconfig.cmake\n'}
+[0.169495] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.169744] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.169993] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/example_pkg_cConfig.cmake\n'}
+[0.170239] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/example_pkg_cConfig-version.cmake\n'}
+[0.170482] (example_pkg_c) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/package.xml\n'}
+[0.172291] (example_pkg_c) CommandEnded: {'returncode': 0}
+[0.201930] (-) TimerEvent: {}
+[0.261108] (example_pkg_c) JobEnded: {'identifier': 'example_pkg_c', 'rc': 0}
+[0.302060] (-) TimerEvent: {}
+[0.402417] (-) TimerEvent: {}
+[0.502709] (-) TimerEvent: {}
+[0.603018] (-) TimerEvent: {}
+[0.703322] (-) TimerEvent: {}
+[0.803610] (-) TimerEvent: {}
+[0.903899] (-) TimerEvent: {}
+[1.006017] (-) TimerEvent: {}
+[1.106272] (-) TimerEvent: {}
+[1.206541] (-) TimerEvent: {}
+[1.306786] (-) TimerEvent: {}
+[1.407033] (-) TimerEvent: {}
+[1.507306] (-) TimerEvent: {}
+[1.607555] (-) TimerEvent: {}
+[1.707853] (-) TimerEvent: {}
+[1.808122] (-) TimerEvent: {}
+[1.908417] (-) TimerEvent: {}
+[2.008675] (-) TimerEvent: {}
+[2.108997] (-) TimerEvent: {}
+[2.209314] (-) TimerEvent: {}
+[2.309673] (-) TimerEvent: {}
+[2.409957] (-) TimerEvent: {}
+[2.510246] (-) TimerEvent: {}
+[2.610545] (-) TimerEvent: {}
+[2.710825] (-) TimerEvent: {}
+[2.811183] (-) TimerEvent: {}
+[2.883003] (rrt_marker_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wrdev/workspace/ros2_ws/src/rrt_marker_rviz/src/rrt_marker.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DisplayRRT::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.883234] (rrt_marker_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wrdev/workspace/ros2_ws/src/rrt_marker_rviz/src/rrt_marker.cpp:12:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcoor[0][0]\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K-Wmaybe-uninitialized\x1b[m\x1b[K]\n'}
+[2.883323] (rrt_marker_rviz) StderrLine: {'line': b'   12 |         double \x1b[01;35m\x1b[Kx1\x1b[m\x1b[K=coor[0][0];\n'}
+[2.883396] (rrt_marker_rviz) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.883469] (rrt_marker_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wrdev/workspace/ros2_ws/src/rrt_marker_rviz/src/rrt_marker.cpp:13:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcoor[0][1]\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K-Wmaybe-uninitialized\x1b[m\x1b[K]\n'}
+[2.883542] (rrt_marker_rviz) StderrLine: {'line': b'   13 |         double \x1b[01;35m\x1b[Ky1\x1b[m\x1b[K=coor[0][1];\n'}
+[2.883613] (rrt_marker_rviz) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.883683] (rrt_marker_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wrdev/workspace/ros2_ws/src/rrt_marker_rviz/src/rrt_marker.cpp:14:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcoor[1][0]\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K-Wmaybe-uninitialized\x1b[m\x1b[K]\n'}
+[2.883754] (rrt_marker_rviz) StderrLine: {'line': b'   14 |         double \x1b[01;35m\x1b[Kx2\x1b[m\x1b[K=coor[1][0];\n'}
+[2.883825] (rrt_marker_rviz) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.883895] (rrt_marker_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wrdev/workspace/ros2_ws/src/rrt_marker_rviz/src/rrt_marker.cpp:15:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcoor[1][1]\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K-Wmaybe-uninitialized\x1b[m\x1b[K]\n'}
+[2.883965] (rrt_marker_rviz) StderrLine: {'line': b'   15 |         double \x1b[01;35m\x1b[Ky2\x1b[m\x1b[K=coor[1][1];\n'}
+[2.884034] (rrt_marker_rviz) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.911283] (-) TimerEvent: {}
+[2.967261] (rrt_marker_rviz) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/rrt_marker_rviz.dir/src/rrt_display.cpp.o\x1b[0m\n'}
+[3.011419] (-) TimerEvent: {}
+[3.111768] (-) TimerEvent: {}
+[3.212087] (-) TimerEvent: {}
+[3.312345] (-) TimerEvent: {}
+[3.412663] (-) TimerEvent: {}
+[3.512968] (-) TimerEvent: {}
+[3.613221] (-) TimerEvent: {}
+[3.713483] (-) TimerEvent: {}
+[3.813797] (-) TimerEvent: {}
+[3.914084] (-) TimerEvent: {}
+[4.014389] (-) TimerEvent: {}
+[4.114717] (-) TimerEvent: {}
+[4.215002] (-) TimerEvent: {}
+[4.315316] (-) TimerEvent: {}
+[4.415631] (-) TimerEvent: {}
+[4.515902] (-) TimerEvent: {}
+[4.616195] (-) TimerEvent: {}
+[4.716520] (-) TimerEvent: {}
+[4.816800] (-) TimerEvent: {}
+[4.917135] (-) TimerEvent: {}
+[5.017433] (-) TimerEvent: {}
+[5.117727] (-) TimerEvent: {}
+[5.218039] (-) TimerEvent: {}
+[5.318364] (-) TimerEvent: {}
+[5.418684] (-) TimerEvent: {}
+[5.518978] (-) TimerEvent: {}
+[5.619306] (-) TimerEvent: {}
+[5.719668] (-) TimerEvent: {}
+[5.820023] (-) TimerEvent: {}
+[5.920285] (-) TimerEvent: {}
+[6.020585] (-) TimerEvent: {}
+[6.120898] (-) TimerEvent: {}
+[6.221177] (-) TimerEvent: {}
+[6.321502] (-) TimerEvent: {}
+[6.421827] (-) TimerEvent: {}
+[6.522108] (-) TimerEvent: {}
+[6.622388] (-) TimerEvent: {}
+[6.722766] (-) TimerEvent: {}
+[6.823118] (-) TimerEvent: {}
+[6.923405] (-) TimerEvent: {}
+[7.023682] (-) TimerEvent: {}
+[7.027778] (rrt_marker_rviz) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library librrt_marker_rviz.so\x1b[0m\n'}
+[7.123777] (-) TimerEvent: {}
+[7.224037] (-) TimerEvent: {}
+[7.286806] (rrt_marker_rviz) StdoutLine: {'line': b'[ 60%] Built target rrt_marker_rviz\n'}
+[7.298370] (rrt_marker_rviz) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/rrt_display.dir/src/rrt_display.cpp.o\x1b[0m\n'}
+[7.324130] (-) TimerEvent: {}
+[7.424378] (-) TimerEvent: {}
+[7.524628] (-) TimerEvent: {}
+[7.624904] (-) TimerEvent: {}
+[7.725149] (-) TimerEvent: {}
+[7.825477] (-) TimerEvent: {}
+[7.925803] (-) TimerEvent: {}
+[8.026174] (-) TimerEvent: {}
+[8.126479] (-) TimerEvent: {}
+[8.226778] (-) TimerEvent: {}
+[8.327125] (-) TimerEvent: {}
+[8.427455] (-) TimerEvent: {}
+[8.527750] (-) TimerEvent: {}
+[8.628047] (-) TimerEvent: {}
+[8.728377] (-) TimerEvent: {}
+[8.828652] (-) TimerEvent: {}
+[8.928912] (-) TimerEvent: {}
+[9.029194] (-) TimerEvent: {}
+[9.129474] (-) TimerEvent: {}
+[9.229742] (-) TimerEvent: {}
+[9.330047] (-) TimerEvent: {}
+[9.430314] (-) TimerEvent: {}
+[9.530608] (-) TimerEvent: {}
+[9.630911] (-) TimerEvent: {}
+[9.731205] (-) TimerEvent: {}
+[9.831621] (-) TimerEvent: {}
+[9.931958] (-) TimerEvent: {}
+[10.032275] (-) TimerEvent: {}
+[10.132557] (-) TimerEvent: {}
+[10.232868] (-) TimerEvent: {}
+[10.333227] (-) TimerEvent: {}
+[10.433539] (-) TimerEvent: {}
+[10.533834] (-) TimerEvent: {}
+[10.634133] (-) TimerEvent: {}
+[10.734413] (-) TimerEvent: {}
+[10.834704] (-) TimerEvent: {}
+[10.935057] (-) TimerEvent: {}
+[11.035375] (-) TimerEvent: {}
+[11.135640] (-) TimerEvent: {}
+[11.235962] (-) TimerEvent: {}
+[11.336260] (-) TimerEvent: {}
+[11.409812] (rrt_marker_rviz) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rrt_display\x1b[0m\n'}
+[11.436381] (-) TimerEvent: {}
+[11.536692] (-) TimerEvent: {}
+[11.637064] (-) TimerEvent: {}
+[11.681522] (rrt_marker_rviz) StdoutLine: {'line': b'[100%] Built target rrt_display\n'}
+[11.687170] (rrt_marker_rviz) CommandEnded: {'returncode': 0}
+[11.712159] (rrt_marker_rviz) JobProgress: {'identifier': 'rrt_marker_rviz', 'progress': 'install'}
+[11.712851] (rrt_marker_rviz) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz'], 'cwd': '/home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wrdev'), ('LC_TIME', 'en_SG.UTF-8'), ('SSH_AGENT_PID', '1111'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/local/cuda/lib64'), ('HOME', '/home/wrdev'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_SG.UTF-8'), ('MANAGERPID', '877'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3d62068e1510f55e6f8eab1763e0517b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'wrdev'), ('JOURNAL_STREAM', '8:36655'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wrdev'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/opt/weston_robot/bin/:/home/wrdev/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/wrdev-B150:@/tmp/.ICE-unix/1149,unix/wrdev-B150:/tmp/.ICE-unix/1149'), ('INVOCATION_ID', 'db4f3e956dc343a388a277b60674e5b4'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_SG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2f074de0_ba6a_4654_823d_c6f535303f81'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_SG.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.294'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_SG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_SG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_SG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3d62068e1510f55e6f8eab1763e0517b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_SG.UTF-8'), ('LC_PAPER', 'en_SG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[11.718293] (rrt_marker_rviz) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.718513] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/environment/library_path.sh\n'}
+[11.718646] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/environment/library_path.dsv\n'}
+[11.718929] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/include\n'}
+[11.719024] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/include/rrt_marker_rviz\n'}
+[11.719099] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/include/rrt_marker_rviz/rrt_marker.hpp\n'}
+[11.719227] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/lib/rrt_marker_rviz/librrt_marker_rviz.so\n'}
+[11.721660] (rrt_marker_rviz) StdoutLine: {'line': b'-- Set runtime path of "/home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/lib/rrt_marker_rviz/librrt_marker_rviz.so" to ""\n'}
+[11.721823] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/ament_index/resource_index/package_run_dependencies/rrt_marker_rviz\n'}
+[11.721942] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/ament_index/resource_index/parent_prefix_path/rrt_marker_rviz\n'}
+[11.722083] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/environment/ament_prefix_path.sh\n'}
+[11.722223] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/environment/ament_prefix_path.dsv\n'}
+[11.722369] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/environment/path.sh\n'}
+[11.722524] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/environment/path.dsv\n'}
+[11.722653] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/local_setup.bash\n'}
+[11.722796] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/local_setup.sh\n'}
+[11.723114] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/local_setup.zsh\n'}
+[11.723213] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/local_setup.dsv\n'}
+[11.723517] (rrt_marker_rviz) StdoutLine: {'line': b'-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/package.dsv\n'}
+[11.723786] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/ament_index/resource_index/packages/rrt_marker_rviz\n'}
+[11.723906] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/cmake/rrt_marker_rvizExport.cmake\n'}
+[11.724021] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/cmake/rrt_marker_rvizExport-noconfig.cmake\n'}
+[11.724141] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.724264] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.724373] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/cmake/rrt_marker_rvizConfig.cmake\n'}
+[11.724490] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/cmake/rrt_marker_rvizConfig-version.cmake\n'}
+[11.724593] (rrt_marker_rviz) StdoutLine: {'line': b'-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/package.xml\n'}
+[11.730864] (rrt_marker_rviz) CommandEnded: {'returncode': 0}
+[11.737162] (-) TimerEvent: {}
+[11.792102] (rrt_marker_rviz) JobEnded: {'identifier': 'rrt_marker_rviz', 'rc': 0}
+[11.793156] (-) EventReactorShutdown: {}

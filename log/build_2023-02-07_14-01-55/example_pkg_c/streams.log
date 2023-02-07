@@ -1,0 +1,32 @@
+[0.022s] Invoking command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c': CMAKE_PREFIX_PATH=/home/wrdev/workspace/ros2_ws/install/example_pkg_c:/opt/ros/galactic:/opt/ros/noetic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/example_pkg_c -- -j4 -l4
+[0.069s] [ 60%] Built target example_pkg_c
+[0.086s] [100%] Built target rrt_display
+[0.092s] Invoked command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c' returned '0': CMAKE_PREFIX_PATH=/home/wrdev/workspace/ros2_ws/install/example_pkg_c:/opt/ros/galactic:/opt/ros/noetic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/example_pkg_c -- -j4 -l4
+[0.126s] Invoking command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c': CMAKE_PREFIX_PATH=/home/wrdev/workspace/ros2_ws/install/example_pkg_c:/opt/ros/galactic:/opt/ros/noetic /usr/bin/cmake --install /home/wrdev/workspace/ros2_ws/build/example_pkg_c
+[0.129s] -- Install configuration: ""
+[0.129s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/library_path.sh
+[0.129s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/library_path.dsv
+[0.130s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/include
+[0.130s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/include/example_pkg_c
+[0.130s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/include/example_pkg_c/rrt_marker.hpp
+[0.130s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/lib/example_pkg_c/libexample_pkg_c.so
+[0.130s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/ament_index/resource_index/package_run_dependencies/example_pkg_c
+[0.130s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/ament_index/resource_index/parent_prefix_path/example_pkg_c
+[0.130s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/ament_prefix_path.sh
+[0.130s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/ament_prefix_path.dsv
+[0.130s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/path.sh
+[0.130s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/environment/path.dsv
+[0.131s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/local_setup.bash
+[0.131s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/local_setup.sh
+[0.131s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/local_setup.zsh
+[0.131s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/local_setup.dsv
+[0.131s] -- Installing: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/package.dsv
+[0.131s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/ament_index/resource_index/packages/example_pkg_c
+[0.131s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/example_pkg_cExport.cmake
+[0.131s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/example_pkg_cExport-noconfig.cmake
+[0.131s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/ament_cmake_export_targets-extras.cmake
+[0.131s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.131s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/example_pkg_cConfig.cmake
+[0.131s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/cmake/example_pkg_cConfig-version.cmake
+[0.132s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/example_pkg_c/share/example_pkg_c/package.xml
+[0.133s] Invoked command in '/home/wrdev/workspace/ros2_ws/build/example_pkg_c' returned '0': CMAKE_PREFIX_PATH=/home/wrdev/workspace/ros2_ws/install/example_pkg_c:/opt/ros/galactic:/opt/ros/noetic /usr/bin/cmake --install /home/wrdev/workspace/ros2_ws/build/example_pkg_c

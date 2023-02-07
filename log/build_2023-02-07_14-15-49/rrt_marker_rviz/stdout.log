@@ -1,0 +1,34 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/rrt_marker_rviz.dir/src/rrt_marker.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/rrt_marker_rviz.dir/src/rrt_display.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library librrt_marker_rviz.so[0m
+[ 60%] Built target rrt_marker_rviz
+[ 80%] [32mBuilding CXX object CMakeFiles/rrt_display.dir/src/rrt_display.cpp.o[0m
+[100%] [32m[1mLinking CXX executable rrt_display[0m
+[100%] Built target rrt_display
+-- Install configuration: ""
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/environment/library_path.sh
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/environment/library_path.dsv
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/include
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/include/rrt_marker_rviz
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/include/rrt_marker_rviz/rrt_marker.hpp
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/lib/rrt_marker_rviz/librrt_marker_rviz.so
+-- Set runtime path of "/home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/lib/rrt_marker_rviz/librrt_marker_rviz.so" to ""
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/ament_index/resource_index/package_run_dependencies/rrt_marker_rviz
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/ament_index/resource_index/parent_prefix_path/rrt_marker_rviz
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/environment/ament_prefix_path.sh
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/environment/ament_prefix_path.dsv
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/environment/path.sh
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/environment/path.dsv
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/local_setup.bash
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/local_setup.sh
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/local_setup.zsh
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/local_setup.dsv
+-- Up-to-date: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/package.dsv
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/ament_index/resource_index/packages/rrt_marker_rviz
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/cmake/rrt_marker_rvizExport.cmake
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/cmake/rrt_marker_rvizExport-noconfig.cmake
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/cmake/rrt_marker_rvizConfig.cmake
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/cmake/rrt_marker_rvizConfig-version.cmake
+-- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/package.xml

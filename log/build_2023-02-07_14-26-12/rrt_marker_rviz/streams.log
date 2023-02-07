@@ -1,0 +1,17 @@
+[0.030s] Invoking command in '/home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz -- -j4 -l4
+[0.047s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.078s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.144s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.184s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.320s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.371s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.373s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.390s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.520s] -- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+[0.697s] -- Configuring done
+[0.718s] [0mCMake Error: INSTALL(EXPORT) given unknown export "rrt_marker_rviz"[0m
+[0.718s] -- Generating done
+[0.720s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.727s] make: *** [Makefile:311: cmake_check_build_system] Error 1
+[0.729s] Invoked command in '/home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz -- -j4 -l4

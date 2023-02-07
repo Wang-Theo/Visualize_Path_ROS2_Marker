@@ -1,0 +1,51 @@
+[0.024s] Invoking command in '/home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz -- -j4 -l4
+[0.061s] [ 20%] [32mBuilding CXX object CMakeFiles/rrt_marker_rviz.dir/src/rrt_marker.cpp.o[0m
+[2.863s] [01m[K/home/wrdev/workspace/ros2_ws/src/rrt_marker_rviz/src/rrt_marker.cpp:[m[K In member function ‘[01m[Kvoid DisplayRRT::timer_callback()[m[K’:
+[2.863s] [01m[K/home/wrdev/workspace/ros2_ws/src/rrt_marker_rviz/src/rrt_marker.cpp:12:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcoor[0][0][m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[2.863s]    12 |         double [01;35m[Kx1[m[K=coor[0][0];
+[2.863s]       |                [01;35m[K^~[m[K
+[2.863s] [01m[K/home/wrdev/workspace/ros2_ws/src/rrt_marker_rviz/src/rrt_marker.cpp:13:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcoor[0][1][m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[2.863s]    13 |         double [01;35m[Ky1[m[K=coor[0][1];
+[2.864s]       |                [01;35m[K^~[m[K
+[2.864s] [01m[K/home/wrdev/workspace/ros2_ws/src/rrt_marker_rviz/src/rrt_marker.cpp:14:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcoor[1][0][m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[2.864s]    14 |         double [01;35m[Kx2[m[K=coor[1][0];
+[2.864s]       |                [01;35m[K^~[m[K
+[2.864s] [01m[K/home/wrdev/workspace/ros2_ws/src/rrt_marker_rviz/src/rrt_marker.cpp:15:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcoor[1][1][m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[2.864s]    15 |         double [01;35m[Ky2[m[K=coor[1][1];
+[2.864s]       |                [01;35m[K^~[m[K
+[2.947s] [ 40%] [32mBuilding CXX object CMakeFiles/rrt_marker_rviz.dir/src/rrt_display.cpp.o[0m
+[7.008s] [ 60%] [32m[1mLinking CXX shared library librrt_marker_rviz.so[0m
+[7.267s] [ 60%] Built target rrt_marker_rviz
+[7.278s] [ 80%] [32mBuilding CXX object CMakeFiles/rrt_display.dir/src/rrt_display.cpp.o[0m
+[11.390s] [100%] [32m[1mLinking CXX executable rrt_display[0m
+[11.662s] [100%] Built target rrt_display
+[11.667s] Invoked command in '/home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz -- -j4 -l4
+[11.695s] Invoking command in '/home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz
+[11.698s] -- Install configuration: ""
+[11.698s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/environment/library_path.sh
+[11.699s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/environment/library_path.dsv
+[11.699s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/include
+[11.699s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/include/rrt_marker_rviz
+[11.699s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/include/rrt_marker_rviz/rrt_marker.hpp
+[11.699s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/lib/rrt_marker_rviz/librrt_marker_rviz.so
+[11.702s] -- Set runtime path of "/home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/lib/rrt_marker_rviz/librrt_marker_rviz.so" to ""
+[11.702s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/ament_index/resource_index/package_run_dependencies/rrt_marker_rviz
+[11.702s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/ament_index/resource_index/parent_prefix_path/rrt_marker_rviz
+[11.702s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/environment/ament_prefix_path.sh
+[11.702s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/environment/ament_prefix_path.dsv
+[11.702s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/environment/path.sh
+[11.702s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/environment/path.dsv
+[11.703s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/local_setup.bash
+[11.703s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/local_setup.sh
+[11.703s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/local_setup.zsh
+[11.703s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/local_setup.dsv
+[11.704s] -- Up-to-date: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/package.dsv
+[11.704s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/ament_index/resource_index/packages/rrt_marker_rviz
+[11.704s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/cmake/rrt_marker_rvizExport.cmake
+[11.704s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/cmake/rrt_marker_rvizExport-noconfig.cmake
+[11.704s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/cmake/ament_cmake_export_targets-extras.cmake
+[11.704s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.704s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/cmake/rrt_marker_rvizConfig.cmake
+[11.704s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/cmake/rrt_marker_rvizConfig-version.cmake
+[11.705s] -- Installing: /home/wrdev/workspace/ros2_ws/install/rrt_marker_rviz/share/rrt_marker_rviz/package.xml
+[11.711s] Invoked command in '/home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz

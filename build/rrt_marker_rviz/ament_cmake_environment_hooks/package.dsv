@@ -1,0 +1,4 @@
+source;share/rrt_marker_rviz/local_setup.bash
+source;share/rrt_marker_rviz/local_setup.dsv
+source;share/rrt_marker_rviz/local_setup.sh
+source;share/rrt_marker_rviz/local_setup.zsh

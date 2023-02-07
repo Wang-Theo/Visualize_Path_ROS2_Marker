@@ -1,0 +1,2 @@
+Invoking command in '/home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz -- -j4 -l4
+Invoked command in '/home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/wrdev/workspace/ros2_ws/build/rrt_marker_rviz -- -j4 -l4
